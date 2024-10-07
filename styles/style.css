@@ -1,3 +1,9 @@
+/* https://dontpad.com/turmamark/09 */
+
+
+/* Retirando as configurações padrões */
+@import url('../styles/padrao.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -22,8 +28,8 @@ section {
     width: 100%;
     height: 50px;
     padding: 0 50px;
-    background-color: #252525;
-    color: #fff;
+    background-color: var(--cor-primaria-background);
+    color: var(--cor-primaria);
     position: fixed;
 }
 
@@ -40,7 +46,7 @@ section {
 
 .conteudo-menu a {
     text-decoration: none;
-    color: #fff;
+    color: var(--cor-do-cachorro);
     transition: 0.5s;
 }
 
@@ -193,12 +199,11 @@ section {
 
 
 .final-footer{
-    
     background-color: #252525;
-    justify-content: center;
+    text-align: center;
     color: #fff;
-    padding: 20px 0;     
-    
+    padding: 20px 0;
 }
+
 
 
